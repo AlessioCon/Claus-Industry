@@ -1,0 +1,72 @@
+
+/*reset generale*/
+button[class^="navbar-toggler"]:focus {
+   box-shadow:none !important;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+/*punti di forza*/
+
+.cardD {
+   min-height: 100px;
+   width     : 250px;
+}
+
+.cardD div {
+   width : 64px;
+   height: 64px;
+   border: 2px solid var(--bs-danger) ;
+}
+
+.cardD div:hover {
+   border: 2px solid var(--bs-success) ;
+}
+
+/*main*/
+
+.colonnaMain {
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: center;
+   align-items: center;
+}
+
+.revers {
+   flex-flow: row-reverse nowrap;
+}
+
+.immagineMain{
+   width: 200px;
+   height: 200px;
+}
+
+.testoMain {
+   max-width: 600px;
+   width: 75%;
+}
+
+.testoMain b {
+   color: var(--bs-warning);
+}
+
+ /*footer*/
+
+ footer{
+    height: 200px;
+    border-radius: 50px 50px 0px 0px;
+ }
+
+ .linkedin {
+    width     : 32px;
+    height    : 32px;
+    background: url("src/img/linkedin.png") center center no-repeat;
+    margin    : 0px 0px 0pc 6px;
+ }
+
+
